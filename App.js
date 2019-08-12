@@ -23,6 +23,7 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Test from './source/test';
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text>郭维</Text>
+              <Test></Test>
               <Text style={styles.sectionTitle}>Step One</Text>
               <Text style={styles.sectionDescription}>
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
@@ -56,6 +58,7 @@ const App = () => {
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Debug</Text>
               <Text style={styles.sectionDescription}>
+
                 <DebugInstructions />
               </Text>
             </View>
