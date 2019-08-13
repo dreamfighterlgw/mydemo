@@ -10,7 +10,8 @@
   "dependencies": {
     "react": "16.8.6",
     "react-native": "0.60.4",
-    "react-native-autocomplete-input": "^4.1.0"
+    "react-native-autocomplete-input": "^4.1.0",
+    "react-native-storage": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
